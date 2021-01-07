@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".log_activity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="307dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginTop="262dp"
+        android:text="People you met (ex: Curtis, Kristie, Mitra, Rob)" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:text="Rooms you visited ( ex: FI203, AK116)" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Date (MM/DD/YYYY)" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/log_button"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="255dp"
+        android:text="Input Log" />
+
+
+</RelativeLayout>
